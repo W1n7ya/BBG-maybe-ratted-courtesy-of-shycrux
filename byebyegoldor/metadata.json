@@ -1,0 +1,7 @@
+{
+  "name": "byebyegoldor",
+  "creator": "jenark",
+  "version": "0.4.2",
+  "requires": ["PogData", "BloomCore", "RenderLibV2", "KeybindFix", "Amaterasu", "requestV2"],
+  "entry": "index.js"
+}

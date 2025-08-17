@@ -1,0 +1,666 @@
+[
+    {
+        "category": "Auto P3",
+        "settings": [
+            {
+                "type": 6,
+                "name": "autoP3",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "disableRender",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "circleRendering",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "typeRendering",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "phase",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "sendMessages",
+                "value": false
+            },
+            {
+                "type": 5,
+                "name": "renderColor",
+                "value": [
+                    0,
+                    0,
+                    0,
+                    255
+                ]
+            },
+            {
+                "type": 6,
+                "name": "disableAfterGoldor",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "debugMessages",
+                "value": false
+            },
+            {
+                "type": 2,
+                "name": "AutoP3Commands"
+            }
+        ]
+    },
+    {
+        "category": "Data Sharing",
+        "settings": [
+            {
+                "type": 6,
+                "name": "DataSharing",
+                "value": false
+            },
+            {
+                "type": 4,
+                "name": "DataSharingAPI",
+                "value": "http://localhost:3000/api/v1"
+            },
+            {
+                "type": 6,
+                "name": "AutoBackup",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "DataSharing",
+                "value": false
+            },
+            {
+                "type": 4,
+                "name": "DataSharingApiUrl",
+                "value": "https://your-api-endpoint.com/api/v1"
+            },
+            {
+                "type": 6,
+                "name": "AutoBackupOnDownload",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "DataSharingNotifications",
+                "value": true
+            },
+            {
+                "type": 2,
+                "name": "DataSharingHelp"
+            },
+            {
+                "type": 2,
+                "name": "OpenDataFolder"
+            }
+        ]
+    },
+    {
+        "category": "Auto P5",
+        "settings": [
+            {
+                "type": 6,
+                "name": "BlinkRelics",
+                "value": false
+            },
+            {
+                "type": 8,
+                "name": "RelicQoL",
+                "options": [
+                    {
+                        "name": "RelicAura",
+                        "value": false
+                    },
+                    {
+                        "name": "AutoRunToRelic",
+                        "value": false
+                    },
+                    {
+                        "name": "AutoEquipBlackCat",
+                        "value": false
+                    }
+                ]
+            },
+            {
+                "type": 7,
+                "name": "RelicToRunTo",
+                "value": 0
+            },
+            {
+                "type": 6,
+                "name": "AutoP5",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "AutoP5Debug",
+                "value": false
+            },
+            {
+                "type": 7,
+                "name": "HealerTeam",
+                "value": 0
+            },
+            {
+                "type": 6,
+                "name": "AutoLastBreath",
+                "value": false
+            },
+            {
+                "type": 1,
+                "name": "PurpleDelay",
+                "value": 8
+            },
+            {
+                "type": 1,
+                "name": "BlueDelay",
+                "value": 8
+            },
+            {
+                "type": 1,
+                "name": "OrangeDelay",
+                "value": 8
+            },
+            {
+                "type": 1,
+                "name": "RedDelay",
+                "value": 8
+            },
+            {
+                "type": 1,
+                "name": "GreenDelay",
+                "value": 8
+            },
+            {
+                "type": 6,
+                "name": "AutoIceSpray",
+                "value": false
+            },
+            {
+                "type": 1,
+                "name": "AutoIceSprayTick",
+                "value": 1
+            },
+            {
+                "type": 6,
+                "name": "AutoSoulWhip",
+                "value": false
+            },
+            {
+                "type": 1,
+                "name": "AutoSoulWhipTick",
+                "value": 15
+            }
+        ]
+    },
+    {
+        "category": "Autoroute",
+        "settings": [
+            {
+                "type": 6,
+                "name": "Autoroute",
+                "value": false
+            },
+            {
+                "type": 10,
+                "name": "AutorouteDisabler",
+                "value": 0
+            },
+            {
+                "type": 7,
+                "name": "RenderMode",
+                "value": 0
+            },
+            {
+                "type": 8,
+                "name": "AutorouteToggle",
+                "options": [
+                    {
+                        "name": "AutorouteDebug",
+                        "value": false
+                    },
+                    {
+                        "name": "RenderAutorouteThroughWalls",
+                        "value": false
+                    },
+                    {
+                        "name": "AutorouteDisableRendering",
+                        "value": false
+                    }
+                ]
+            },
+            {
+                "type": 2,
+                "name": "AutorouteCommands"
+            },
+            {
+                "type": 5,
+                "name": "AutorouteEtherColor",
+                "value": [
+                    85,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            {
+                "type": 5,
+                "name": "AutorouteAwaitSecretColor",
+                "value": [
+                    255,
+                    85,
+                    85,
+                    255
+                ]
+            },
+            {
+                "type": 5,
+                "name": "AutorouteBatSpawnColor",
+                "value": [
+                    170,
+                    170,
+                    170,
+                    255
+                ]
+            },
+            {
+                "type": 5,
+                "name": "AutorouteStartWalkColor",
+                "value": [
+                    85,
+                    255,
+                    85,
+                    255
+                ]
+            },
+            {
+                "type": 5,
+                "name": "AutoroutePearlClipColor",
+                "value": [
+                    255,
+                    85,
+                    255,
+                    255
+                ]
+            },
+            {
+                "type": 5,
+                "name": "AutorouteUseColor",
+                "value": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            {
+                "type": 5,
+                "name": "AutorouteWallClipColor",
+                "value": [
+                    170,
+                    0,
+                    0,
+                    255
+                ]
+            },
+            {
+                "type": 5,
+                "name": "AutorouteRotateColor",
+                "value": [
+                    255,
+                    255,
+                    85,
+                    255
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Auto Leap",
+        "settings": [
+            {
+                "type": 6,
+                "name": "autoLeap",
+                "value": true
+            },
+            {
+                "type": 4,
+                "name": "ee2Leap",
+                "value": "d1grassopp"
+            },
+            {
+                "type": 4,
+                "name": "ee3Leap",
+                "value": "_4cdr"
+            },
+            {
+                "type": 4,
+                "name": "coreLeap",
+                "value": "7Woozy"
+            },
+            {
+                "type": 4,
+                "name": "inCoreLeap",
+                "value": "7Woozy"
+            }
+        ]
+    },
+    {
+        "category": "Blink",
+        "settings": [
+            {
+                "type": 6,
+                "name": "timerBalance",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "displayPackets",
+                "value": true
+            },
+            {
+                "type": 1,
+                "name": "removeAmount",
+                "value": 50
+            },
+            {
+                "type": 1,
+                "name": "removeInterval",
+                "value": 10
+            },
+            {
+                "type": 6,
+                "name": "balanceBoss",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "renderBlink",
+                "value": true
+            }
+        ]
+    },
+    {
+        "category": "Doorless",
+        "settings": [
+            {
+                "type": 6,
+                "name": "doorless",
+                "value": false
+            },
+            {
+                "type": 4,
+                "name": "doorlessclip",
+                "value": ""
+            },
+            {
+                "type": 6,
+                "name": "doorlessmotion",
+                "value": false
+            },
+            {
+                "type": 4,
+                "name": "doorlessmotionspeed",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "category": "Auto Tnt",
+        "settings": [
+            {
+                "type": 6,
+                "name": "autoTnt",
+                "value": true
+            },
+            {
+                "type": 1,
+                "name": "autoTntCPS",
+                "value": 5
+            },
+            {
+                "type": 6,
+                "name": "p3Check",
+                "value": false
+            }
+        ]
+    },
+    {
+        "category": "Extra",
+        "settings": [
+            {
+                "type": 1,
+                "name": "hClipBoost",
+                "value": 10
+            },
+            {
+                "type": 6,
+                "name": "invWalk",
+                "value": false
+            },
+            {
+                "type": 1,
+                "name": "lavaClipBlocks",
+                "value": 40
+            },
+            {
+                "type": 6,
+                "name": "bossClip",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "witherESP",
+                "value": true
+            },
+            {
+                "type": 5,
+                "name": "witherESPColor",
+                "value": [
+                    255,
+                    255,
+                    255
+                ]
+            },
+            {
+                "type": 6,
+                "name": "leapNotifier",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "vertJerry",
+                "value": true
+            },
+            {
+                "type": 8,
+                "name": "Clip",
+                "options": [
+                    {
+                        "name": "StormClip",
+                        "value": false
+                    },
+                    {
+                        "name": "CoreClip",
+                        "value": false
+                    }
+                ]
+            },
+            {
+                "type": 6,
+                "name": "InstamidSneak",
+                "value": false
+            }
+        ]
+    },
+    {
+        "category": "Zpe",
+        "settings": [
+            {
+                "type": 6,
+                "name": "ZeroPingEtherwarp",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "ZpewSuccessSound",
+                "value": false
+            }
+        ]
+    },
+    {
+        "category": "Insta 1",
+        "settings": [
+            {
+                "type": 6,
+                "name": "insta1",
+                "value": false
+            },
+            {
+                "type": 1,
+                "name": "insta1Delay",
+                "value": 0
+            },
+            {
+                "type": 1,
+                "name": "insta1Clicks",
+                "value": 0
+            },
+            {
+                "type": 1,
+                "name": "insta1Ping",
+                "value": 0
+            }
+        ]
+    },
+    {
+        "category": "Desync Detector",
+        "settings": [
+            {
+                "type": 6,
+                "name": "desyncDetector",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "desyncAudio",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "desyncVisual",
+                "value": false
+            },
+            {
+                "type": 1,
+                "name": "packetTimeout",
+                "value": 5
+            },
+            {
+                "type": 1,
+                "name": "tpsThreshold",
+                "value": 12
+            },
+            {
+                "type": 2,
+                "name": "DesyncCommands"
+            }
+        ]
+    },
+    {
+        "category": "Packets",
+        "settings": [
+            {
+                "type": 4,
+                "name": "packetsInfo",
+                "value": ""
+            },
+            {
+                "type": 6,
+                "name": "packet_C02PacketUseEntity",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_C03PacketPlayer",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_C08PacketPlayerBlockPlacement",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_C0DPacketCloseWindow",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_C0EPacketClickWindow",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_C0FPacketConfirmTransaction",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_S02PacketChat",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_S08PacketPlayerPosLook",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_S0DPacketCollectItem",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_S12PacketEntityVelocity",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_S29PacketSoundEffect",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_S2DPacketOpenWindow",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_S2EPacketCloseWindow",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_S2FPacketSetSlot",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "packet_S32PacketConfirmTransaction",
+                "value": false
+            }
+        ]
+    }
+]
